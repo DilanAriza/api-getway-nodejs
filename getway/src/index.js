@@ -1,11 +1,13 @@
 // libs
 const express = require('express');
 const bodyParser = require('body-parser');
+const dotenv = require('dotenv');
 
 // routes
 const router = require('./routers/router');
 
 // configuration app
+dotenv.config()
 const app = express();
 
 app.use(bodyParser.json());
@@ -18,6 +20,8 @@ app.get('/', (req, res) => {
 // config router 
 app.use(router);
 
-app.listen(3000, ()=>{
-    console.log('API Getway running on http://localhost:3000');
+const port = process.env.PORT || 4000;
+
+app.listen(port, ()=>{
+    console.log(`API Getway running on http://localhost:${port}`);
 })
