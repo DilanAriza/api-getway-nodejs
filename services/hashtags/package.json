@@ -1,0 +1,26 @@
+{
+  "name": "hashtags",
+  "version": "0.0.1",
+  "description": "service hashtags example to apigetway",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DilanAriza/api-getway-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "Dilan Santiago Ariza Cañon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DilanAriza/api-getway-nodejs/issues"
+  },
+  "homepage": "https://github.com/DilanAriza/api-getway-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

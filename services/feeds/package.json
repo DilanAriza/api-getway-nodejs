@@ -1,8 +1,8 @@
 {
-  "name": "api-getway",
+  "name": "feeds",
   "version": "0.0.1",
-  "description": "simple api-getway with nodejs and express",
-  "main": "index.js",
+  "description": "service feeds example to apigetway",
+  "main": "src/index.js",
   "scripts": {
     "test": "test"
   },
@@ -12,17 +12,15 @@
   },
   "keywords": [
     "nodejs",
-    "api-getway",
     "express"
   ],
-  "author": "Dilan Santiago Ariza Cañon <dilansantiagoariza@gmai.com>",
+  "author": "Dilan Santiago Ariza Cañon <dilansantiagoariza@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DilanAriza/api-getway-nodejs/issues"
   },
   "homepage": "https://github.com/DilanAriza/api-getway-nodejs#readme",
   "dependencies": {
-    "body-parser": "^1.19.2",
-    "epxress": "^0.0.1-security"
+    "express": "^4.17.3"
   }
 }
